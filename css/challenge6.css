@@ -1,0 +1,46 @@
+*{
+    background-color: lightgrey;
+}
+.cards{
+    height: 100vh;
+    display: flex;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    width: 35%;
+    height: 95vh;
+    margin: 15px;
+
+}
+.image{
+    background-color: white;
+    padding: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+img{
+    text-align: center;
+    background-color: white;
+    align-self: center;
+    width: 100px;
+}
+p{
+    padding: 10px;
+    background-color: white;
+}
+@media screen and (max-width:414px) {
+    .cards{
+        align-content: center;
+        display: inline;
+    }
+    .card{
+
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+}

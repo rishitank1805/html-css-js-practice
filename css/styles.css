@@ -1,0 +1,15 @@
+/* h1
+{
+  font-size: 2.0rem;
+  text-align: center;
+}
+body{
+  background-color: #C490E4;
+  font-family:ui-sans-serif;
+} */
+#ip{
+  border-radius: 18px;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+}

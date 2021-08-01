@@ -1,0 +1,62 @@
+.heading h3{
+   color: green;
+   text-align: center;
+}
+
+.type-1{
+    background-color: slategray;
+    text-align: center;
+    width: 150px;
+    margin-right: 100px;
+    margin-left: 20px;
+    float: right;
+}
+.type-2{
+    background-color: gray;
+    text-align: center;
+    width: 150px;
+    margin-right: 100px;
+    margin-left: 20px;
+    float: left;
+}
+.type-3{
+    background-color: lightgray;
+    text-align: center;
+    width: 150px;
+    margin-right: 100px;
+    margin-left: 20px;
+    float: left;
+}
+.type-4{
+    background-color: lightyellow;
+    text-align: center;
+    width: 150px;
+    margin-right: 100px;
+    margin-left: 20px;
+    float: right;
+}
+.layer-1{
+    
+    display: flex;
+}
+.layer-2{
+    
+    display: flex;
+}
+
+.boxes{
+    display: flex;
+    padding: 40px;
+    
+}
+
+@media(max-width:768px) {
+    .boxes{
+        flex-direction: column;
+    }
+}
+@media(max-width:414px) {
+    .layer-1,.layer-2{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,92 @@
+nav > ul > li {
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+}
+h3{
+    padding-top: 10px;
+    
+    text-align: center;
+}
+
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+/* .form-group {
+    width: 80%;
+} */
+
+.form-group label{
+    display: block;
+    padding: 5px;
+}
+.form-group input, select, textarea{
+    display: block;
+    width: 40%;
+    padding: 10px 5px;
+}
+.form-group input[type="radio"]{
+    display: inline-block;
+
+}
+.form-check label {
+    display: inline;
+    padding: 5px;
+}
+.form-check input{
+    padding: 10px 0;
+}
+.main-content {
+    background-color: white;
+    /* width: 75%; */
+    margin: 0 20%;
+    padding: 0 25px;
+}
+
+
+.body-content {
+    background-color: lightgrey;
+}
+header {
+    background-color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col-1 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+  
+  .col-2 {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+  
+  .col-3 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+  
+  
+  .col-4 {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  
+  
+  .col-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }

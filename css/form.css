@@ -1,0 +1,27 @@
+body{
+  background-color: #1768AC;
+}
+.container{
+
+  background-color:white;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 19px;
+    padding: 8px 10px 20px 8px;
+
+}
+input{
+   margin: 4px;
+   padding: 5px 5px 10px 5px;
+   border: 2px solid #1768AC;
+   border-radius: 6px;
+
+}
+.div{
+  padding-right: 20px;
+}
+p{
+  font-size: 22px;
+  text-align: center;
+  padding 5px;
+}
